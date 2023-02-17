@@ -1,6 +1,6 @@
 # General info
-This is project from unit 11 and 12
+This is project from unit 11, 12, 13 and 14
 
-It has two branches - one branch for each lesson
+It has One branch for each lesson
 
-Branch emmet-task has a solution to unit 12 task
+Branch emmet-task has a solution to unit 12 task and for unit 13
