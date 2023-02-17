@@ -57,6 +57,10 @@ section{
     padding-left: 50px;
 }
 
+section>h2{
+    text-transform: uppercase;
+}
+
 .img{
     position:absolute;
     display: flex;
@@ -90,7 +94,6 @@ img{
 }
 
 footer{
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -100,17 +103,19 @@ footer{
    
     width: 80vw;
     text-align: center;
+    z-index: 100;
+    color: white;
     
    
 
 }
 
 .footer-div{
-    
+    background-image: url("../img/img.avif");
     padding: 50px 10px;
     border-top: 1px solid gray;
     width: 86vw;
-    z-index: 1;
+    z-index: 10;
 
   
 
@@ -120,3 +125,4 @@ footer{
     padding: none;
     margin: none;
 }
+
