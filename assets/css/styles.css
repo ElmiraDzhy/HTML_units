@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,800;1,500&display=swap');
+
 body{
     margin: 0px;
     font-family: 'Work Sans',sans-serif;
+    background-color: rgba(128, 128, 128, 0.39);
+   
 
 }
 
 header{
     text-align: center;
     font-size:larger;
+    border-bottom: 1px solid black;
 
 }
 
@@ -15,7 +19,7 @@ aside{
     padding: 15px;
     position: fixed;
     width: 200px;
-    height: 96.5vh;
+    height: 100vh;
 
     text-align: center;
     line-height: 2;
@@ -24,22 +28,24 @@ aside{
     right: 0px;
     top: 0px;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: white;
-z-index: 1000;
-
+    z-index: 1000;
 
 }
 
+
 input{
-    margin: 15px;
     height: 30px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 16px;
 }
 
 button{
     position: absolute;
-    bottom: 10px;
-    right: 30px;
+    bottom: 50px;
+    right: 30px;    
     width: 170px;
     text-decoration: none;
     border-radius: 10px;
@@ -49,7 +55,7 @@ button{
 
 button:hover{
     cursor: pointer;
-    background-color: rgb(156, 228, 204);
+    background-color: rgb(104, 116, 112);
 }
 
 section{
@@ -66,9 +72,9 @@ section>h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90vh;
+    height: 50rem;
 
-    top: 150px;
+    top: 180px;
     left: 700px;
 
 
@@ -76,7 +82,7 @@ section>h2{
 }
 
 img{
-    height: 23vh;
+    height: 30%;
 }
 
 .contacts>a{
@@ -91,6 +97,8 @@ img{
 .contacts{
     text-align: right;
     margin-right: 270px;
+
+    margin-top: 20px;
 }
 
 footer{
